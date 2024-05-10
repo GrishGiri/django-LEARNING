@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    {% load static %}
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{tt}}</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <!-- icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- estilo css -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  </head>
+
+  <body>
+    <section class="header">
+      <a href="#" class="logo"> De Beauty Bar </a>
+
+      <nav class="navbar">
+        <div id="close-navbar" class="fas fa-times"></div>
+        <a href="/">home</a>
+        <a href="/about">about</a>
+        <a href="/services">services</a>
+        <a href="/package">package</a>
+        <a href="/gallery">gallery</a>
+        <a href="/visit">book a visit</a>
+        <a href="/testimonials">testimonials</a>
+        <a href="/contact">contact</a>
+      </nav>
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+  </body>
+</html>
+
+
